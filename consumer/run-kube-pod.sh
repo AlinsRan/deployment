@@ -1,0 +1,1 @@
+kubectl run consumer --image curlimages/curl --image-pull-policy IfNotPresent --command sleep 1d
